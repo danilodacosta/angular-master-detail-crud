@@ -1,0 +1,106 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Moradia",
+      "description": "Pagamento de Contas de Casa"
+    },
+    {
+      "id": 2,
+      "name": "Saúde",
+      "description": "Plano de Saúde e Remédios"
+    },
+    {
+      "id": 3,
+      "name": "Lazer",
+      "description": "Cinema, parques, praia, etc"
+    },
+    {
+      "id": 4,
+      "name": "Salário",
+      "description": "Recebimento de Salário"
+    },
+    {
+      "id": 5,
+      "name": "Freelas",
+      "description": "Trabalhos como freenlances"
+    }
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "name": "Gás de Cozinha",
+      "description": "Compra semestral do gás de cozinha",
+      "type": "expense",
+      "amount": "70,00",
+      "date": "22/08/2019",
+      "paid": false,
+      "categoryId": "1",
+      "category": {
+        "id": 1,
+        "name": "Moradia",
+        "description": "Pagamento de Contas de Casa"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Salário da Empresa X",
+      "description": null,
+      "type": "revenue",
+      "amount": "5000,00",
+      "date": "01/08/2019",
+      "paid": true,
+      "categoryId": "4",
+      "category": {
+        "id": 4,
+        "name": "Salário",
+        "description": "Recebimento de Salário"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Uber",
+      "description": null,
+      "type": "expense",
+      "amount": "1500,00",
+      "date": "05/08/2019",
+      "paid": true,
+      "categoryId": "2",
+      "category": {
+        "id": 2,
+        "name": "Saúde",
+        "description": "Plano de Saúde e Remédios"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Pagamento Pelo Projeto XYZ",
+      "description": "Pagamento pelo Desenvolvimento do Sistema",
+      "type": "revenue",
+      "amount": "1500,00",
+      "date": "09/07/2019",
+      "paid": true,
+      "categoryId": "5",
+      "category": {
+        "id": 5,
+        "name": "Freelas",
+        "description": "Trabalhos como freenlances"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Aluguel de Filme",
+      "description": null,
+      "type": "expense",
+      "amount": "20,00",
+      "date": "18/08/2019",
+      "paid": false,
+      "categoryId": "3",
+      "category": {
+        "id": 3,
+        "name": "Lazer",
+        "description": "Cinema, parques, praia, etc"
+      }
+    }
+  ]
+}

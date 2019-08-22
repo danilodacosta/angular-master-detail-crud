@@ -1,0 +1,9 @@
+@mixin breakpoint() {
+    @media (max-width: 767px) { margin-bottom: 7px; @content ; }
+ }
+
+td {
+  a.btn-outline-info {
+    @include breakpoint();
+  }
+}
